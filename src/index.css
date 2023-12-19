@@ -1,0 +1,175 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+.Header{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header h1{
+   margin: 0; 
+   padding: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.Header nav ul{
+    display: flex;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+
+.Header nav ul li {
+    padding: 10px 15px;
+}
+
+
+@media (max-width : 768px){
+    .Header nav ul{
+        flex-direction: column;
+    }
+    .Header{
+        justify-content: space-around;
+    }
+    .Header nav ul li{
+        padding: 5px 15px;
+    }
+}
+
+
+.Header nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.Header nav ul li a:active{
+    color: black;
+}
+
+/* Main Body Styling */
+
+.App{
+    padding: 20px;
+}
+
+.App .content article h3{
+    margin: 0px;
+}
+
+article a{
+display: block;
+padding-bottom: 10px;
+text-decoration: none;
+}
+
+article .post-body{
+    margin: 10px 0px;
+}
+
+article .post-meta-n{
+    margin-bottom: 15px;
+}
+
+article h3{
+    font-size: 22px;
+}
+
+article{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+.reactionButtons button{
+padding: 7px 9px;
+margin-right: 10px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+border: none;
+background-color:lightgray;
+border-radius: 6px;
+
+}
+
+.App {
+    max-width: 500px;
+    margin: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form label{
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+form input{
+margin: 5px 0px;
+padding: 10px;
+border: none;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+border-radius: 6px;
+}
+
+form select{
+    padding: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+form textarea {
+    border: none;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+border-radius: 6px;
+padding: 10px;
+}
+
+form button{
+margin-top: 15px;
+padding: 10px;
+font-size: 18px;
+cursor: pointer;
+border: none;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+background-color: blanchedalmond;
+}
+
+.UsersList ul li a{
+    
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: rgb(85, 26, 139);
+   
+}
+
+
+.UsersList ul li {
+    padding: 10px 0;
+}
+
+.UserName ol li a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: rgb(85, 26, 139);
+
+}
+
+.UserName ol li{
+    padding: 10px 0;
+}
